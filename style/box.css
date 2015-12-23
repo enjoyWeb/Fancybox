@@ -1,0 +1,49 @@
+/* CSS Document */
+/* box */
+.box { width:320px; margin:50px auto; position: relative;}
+.tb-pic a { display:table-cell; text-align:center; vertical-align:middle; }
+.tb-pic a img {vertical-align:middle; }
+.tb-pic a {*display:block;*font-family:Arial;*line-height:1;}
+.thumb-wrap {width:100%;position:relative; height: 60px;}
+.tb-thumb {margin:10px 0 0; padding:0; list-style:none; position: relative; left: 50%; height: 60px; float:left;}
+.tb-thumb li {background:none repeat scroll 0 0 transparent; float:left; height:42px; margin:0 6px 0 0; padding:1px;position: relative; right: 50%;}
+.tb-s310, .tb-s310 a { height:310px; width:310px; }
+.tb-s310, .tb-s310 img {max-height:310px; max-width:310px;height:310px\9; width:310px\9;}
+.tb-s310 a { *font-size:271px;}
+.tb-s40 a { *font-size:35px;}
+.tb-s40, .tb-s40 a { height:40px; width:40px;float:left\9; }
+.tb-s40 img, .tb-s40 a img{ max-height:40px; max-width:40px;height:38px\9; width:38px\9;}
+.tb-booth { border:1px solid #CDCDCD; position:relative; z-index:1; }
+.tb-thumb .tb-selected { background:none repeat scroll 0 0 #C30008; height:40px; padding:2px; }
+.tb-thumb .tb-selected div { background-color:#FFFFFF; border:medium none; }
+.tb-thumb li div { border:1px solid #CDCDCD; }
+div.zoomDiv { z-index:999; position:absolute; top:0px; left:0px; width:200px; height:200px; background:#ffffff; border:1px solid #CCCCCC; display:none; text-align:center; overflow:hidden; }
+div.zoomMask { position:absolute; background:url("images/mask.png") repeat scroll 0 0 transparent; cursor:move; z-index:1; }
+.arrow-right,.arrow-left {
+	display: block;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    cursor: pointer;
+    z-index: 8040;
+    background-size: 60px 60px;
+	_position: absolute;
+	_top: 50%;
+	_margin-top: -45px;	
+}
+.arrow-right:hover,.arrow-left:hover {
+	background-color: #000;
+}
+.arrow-left {
+	left: 0;
+	background: url(../images/fancybox-prev.png) no-repeat;
+}
+.arrow-right {
+	right: 0;
+	background: url(../images/fancybox-next.png) no-repeat;
+}
+.tb-pic .hideGalleryBig {
+	display:none;
+}
