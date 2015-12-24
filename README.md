@@ -58,7 +58,7 @@
 </div>
 ```
 ###2、demo
-* [Fancybox商品图片展示demo](http://192.168.14.97:8080/plugin/goodsGallery)
+* [Fancybox商品图片展示demo](http://192.168.14.97:8080/acc/plugin/goodsGallery)
 
 ##配置和API
 ###1、配置
